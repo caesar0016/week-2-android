@@ -32,9 +32,9 @@ public class MainActivity extends MainApp {
 
         DaoEvents dao = RoomDB.getInstance(this).daoEvents();
 
-        AsyncTask.execute(()->{
-            dao.insertAccounts(new UserAccounts_tbl("Username1", "password1", "Admin"));
-        });
+//        AsyncTask.execute(()->{
+//            dao.insertAccounts(new UserAccounts_tbl("Username1", "password1", "Admin"));
+//        });
 
         binding.loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override

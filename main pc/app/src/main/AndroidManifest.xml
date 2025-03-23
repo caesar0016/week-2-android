@@ -25,6 +25,8 @@
             android:exported="false" />
         <activity android:name=".UserAccounts"
             android:exported="false" />
+        <activity android:name=".UpdateAccount"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
